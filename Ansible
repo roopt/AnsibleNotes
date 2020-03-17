@@ -1,0 +1,19 @@
+New:
+key:
+  - string1
+  - string2
+  - string3
+  - string4
+  - string5
+  - string6
+   
+ That's identical in meaning to:
+ 
+ key: ['string1', 'string2', 'string3', 'string4', 'string5', 'string6']
+ 
+ New:
+ Way of using Child Directory in Windows Host:
+ 
+  win_shell: "CMD /C \"java -jar xstore-18.0.0.0.654-0.0.0-0.0-XST-pos-install.jar\""
+  args:
+   chdir: '{{ install_dir }}'
